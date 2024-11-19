@@ -1,0 +1,76 @@
+.listContainer {
+  margin: 20px auto;
+  width: 60%;
+  text-align: left;
+  background-color: #d4edda;
+  border: 1px solid #a9dfbf;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.header {
+  font-size: 1.5em;
+  color: #5b9279;
+  margin-bottom: 10px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #a9dfbf;
+  border-radius: 5px;
+  background-color: #a9dfbf;
+  color: #5b9279;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.votes {
+  margin-right: 10px;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.voteButton {
+  padding: 5px 10px;
+  font-size: 1em;
+  color: white;
+  background-color: #82c9a7;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.voteButton:hover {
+  background-color: #5b9279;
+}
+
+.deleteButton {
+  padding: 5px 10px;
+  font-size: 1em;
+  color: white;
+  background-color: #e57373;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+  background-color: #c62828;
+}

@@ -1,0 +1,15 @@
+.appContainer {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #d4edda;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  font-size: 2em;
+  color: #5b9279;
+  margin-bottom: 20px;
+}
